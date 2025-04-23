@@ -1,0 +1,28 @@
+:root {
+    --cor-principal: rgb(50, 50, 50);
+    --cor-secundaria: rgb(0, 0, 0);
+    --cor-destaque: rgb(200, 0, 200);
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    color: var(--cor-principal)
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
